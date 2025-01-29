@@ -1,0 +1,64 @@
+/* snow color = #fbfbfb */
+
+header{
+    margin: 0;
+    padding: 0;
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: 1px solid;
+    position: relative;
+    /* size */
+    height: 50px;
+}
+#home-icon-div{
+    width: 70px;
+    height: 40px;
+    position: absolute;
+    font-size: 40px;
+    left: 50px;
+    top: 5px;
+   
+}
+#home-icon{
+    cursor: pointer;
+    color: #7E2EA0;
+}
+#input-div{
+    width: 420px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#input-div > input{
+    width: 90%;
+    padding: 6px;
+    border: 1px solid #7E2EA0;
+}
+#input-div > i{
+    font-size: 23px;
+    position: relative;
+    top: 5px;
+    color: #7E2EA0;
+}
+#head-list-div{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+
+}
+.list-item{
+    width: 120px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-item > i{
+    font-size: 35px;
+    cursor: pointer;
+    color: #7E2EA0;
+}

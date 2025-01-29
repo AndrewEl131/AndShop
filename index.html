@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script src="./andShopTxt.js" defer></script>
+    <script src="./toDoList.js" defer></script>
+    <script src="./seach.js" defer></script>
+    <title>AndShop</title>
+</head>
+<body>
+    <header>
+        <div id="home-icon-div">
+            <a href="./index.html">
+                <i class='bx bx-home-alt' id="home-icon"></i>
+            </a>
+        </div>
+        <div id="input-div">
+            <input type="text" placeholder="Search item..." id="main-input">
+            <i class='bx bx-search-alt'></i>
+        </div>
+        <div id="head-list-div">
+            <div class="list-item">
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <div class="list-item">
+                <i class='bx bx-sun' ></i>
+            </div>
+            <div class="list-item">
+                <i class='bx bx-moon' ></i>
+            </div>
+        </div>
+    </header>
+    <div id="andyShop-main-txt">
+        <div>
+            <h1 class="cssanimation typing sequence">AndShop</h1>
+            <!--<h1 class="cssanimation typing random">cssanimation</h1>
+            please uncomment if you want to see random version-->
+          </div>
+    </div>
+    <div id="shoes-img-div">
+       <img src="./main-photo.png" alt="AndShop">
+    </div>
+    <p id="best-of-all">Best of all</p>
+    <div id="shoes-category-div">
+        <div>
+            <img src="./shoeImages/nike-ragaca.png" alt="">
+        </div>
+        <p>Green Nike</p>
+        <div>
+            <img src="./shoeImages//nike-red.png" alt="">
+        </div>
+        <p>Red Nike</p>
+        <div>
+            <img src="./shoeImages/Untitled(2).png" alt="">
+        </div>
+        <p>Orange Big</p>
+        <div>
+            <img src="./shoeImages/shoe-nike-blue.jpg" alt="">
+        </div>
+        <p>Blue Medium</p>
+        <div>
+            <img src="./shoeImages/nike-ornage-shoe.jpg" alt="">
+        </div>
+        <p>Orange Nike</p>
+        <div>
+            <img src="./shoeImages/nike-shoe-black.jpg" alt="">
+        </div>
+        <p>Black Nike</p>
+        <div>
+            <img src="./shoeImages/nike-shoe-pink.jpg" alt="">
+        </div>
+        <p>Pink Nike</p>
+        <div>
+            <img src="./shoeImages/nike-shoe-rgb.jpg" alt="">
+        </div>
+        <p>RGB Nike</p>
+        <div>
+            <img src="./shoeImages/nike-shoe-yellow.jpg" alt="">
+        </div>
+        <p>Yellow</p>
+        <div>
+            <img src="./shoeImages/black-green.jpg" alt="">
+        </div>
+        <p>Black Green</p>
+        
+    </div>
+    <div id="categories-div">
+        <div>
+            <i class='bx bxs-shopping-bags'></i>
+        </div>
+        <div>
+            <i class='bx bxs-t-shirt' ></i>
+        </div>
+        <div>
+            <i class='bx bx-glasses' ></i>
+        </div>
+        <div>
+            <i class='bx bxs-store' ></i>
+        </div>
+    </div>
+    <p id="our-partners-txt">Our Partners</p>
+    <div id="partners-div">
+        <div>
+            <h2 style="color: #7E2EA0;">Andy</h2>
+            <p style="color: #7E2EA0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt at harum, earum animi consequatur vitae neque impedit nisi delectus architecto aliquid, ullam sed ratione? Eum aut tempora facere natus quas.</p>
+        </div>
+        <div>
+            <h2 style="color: #7E2EA0;">George</h2>
+            <p style="color: #7E2EA0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt at harum, earum animi consequatur vitae neque impedit nisi delectus architecto aliquid, ullam sed ratione? Eum aut tempora facere natus quas.</p>
+        </div>
+        <div>
+            <h2 style="color: #7E2EA0;">David</h2>
+            <p style="color: #7E2EA0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt at harum, earum animi consequatur vitae neque impedit nisi delectus architecto aliquid, ullam sed ratione? Eum aut tempora facere natus quas.</p>
+        </div>
+        <div>
+            <h2 style="color: #7E2EA0;">Reimond</h2>
+            <p style="color: #7E2EA0;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt at harum, earum animi consequatur vitae neque impedit nisi delectus architecto aliquid, ullam sed ratione? Eum aut tempora facere natus quas.</p>
+        </div>
+       
+    </div>
+    <h1 id="h1">Add Item Which We Dont Have</h1>
+    <div id="to-do-div">
+        <div>
+            <input type="text" id="to-do-input">
+            <button id="to-do-btn" onclick="addList()">Add</button>
+            <div id="list-container">
+                <ol>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id="footer-txt">AndShop <i class='bx bx-copyright' ></i></p>
+    </footer>
+</body>
+</html>
