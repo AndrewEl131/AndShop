@@ -16,6 +16,7 @@
     <script src="./andShopTxt.js" defer></script>
     <script src="./toDoList.js" defer></script>
     <script src="./seach.js" defer></script>
+    <script src="./swichColor.js" defer></script>
     <title>AndShop</title>
 </head>
 <body>
@@ -30,14 +31,16 @@
             <i class='bx bx-search-alt'></i>
         </div>
         <div id="head-list-div">
+            <a href="./allProduct.html">
+                <div class="list-item">
+                    <i class='bx bxs-shopping-bag' ></i>
+                </div>
+            </a>
             <div class="list-item">
-                <i class='bx bxs-shopping-bag' ></i>
+                <i class='bx bx-sun' onclick="light()"></i>
             </div>
             <div class="list-item">
-                <i class='bx bx-sun' ></i>
-            </div>
-            <div class="list-item">
-                <i class='bx bx-moon' ></i>
+                <i class='bx bx-moon' onclick="dark()"></i>
             </div>
         </div>
     </header>
@@ -146,3 +149,4 @@
     </footer>
 </body>
 </html>
+
