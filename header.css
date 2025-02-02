@@ -6,7 +6,7 @@ header{
     font-family: "Smooch Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
-    border: 1px solid;
+    border: 1px solid #7E2EA0;
     position: relative;
     /* size */
     height: 50px;
@@ -61,4 +61,10 @@ header{
     font-size: 35px;
     cursor: pointer;
     color: #7E2EA0;
+}
+#head-list-div > a{
+    text-decoration: none;
+}
+#head-list-div > a:hover{
+    text-decoration: underline;
 }
